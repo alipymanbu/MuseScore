@@ -1,95 +1,26 @@
-# ![MuseScore Studio](share/icons/musescore_logo_full.png)
+# MuseScore
 
-Music notation and composition software
+本仓库是「MuseScore」的安卓版本获取入口，附使用资料索引。
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![Coverage](https://s3.us-east-1.amazonaws.com/extensions.musescore.org/test/code_coverage/coverage_badge.svg?)](https://github.com/musescore/MuseScore/actions/workflows/check_unit_tests.yml)
+## 安装文件资源（夸克网盘）
 
-MuseScore Studio is an open source and free music notation software. For support, contribution, and bug reports visit MuseScore.org. Fork and make pull requests!
+> **MuseScore 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/6bae9cc8c5ea](https://pan.quark.cn/s/6bae9cc8c5ea)
 
-## Features
+## 官方项目
 
-- WYSIWYG design, notes are entered on a "virtual notepaper"
-- TrueType font(s) for printing & display allows for high quality scaling to all sizes
-- Easy & fast note entry
-- Many editing functions
-- MusicXML import/export
-- MIDI (SMF) import/export
-- MEI import/export
-- MuseData import
-- MIDI input for note entry
-- Integrated sequencer and software synthesizer to play the score
-- Print or create PDF files
+- 上游项目：[musescore/MuseScore](https://github.com/musescore/MuseScore)
 
-## More info
+## 更多资料
 
-- [MuseScore Studio Homepage](https://musescore.org)
-- [MuseScore Studio Git workflow instructions](https://musescore.org/en/developers-handbook/git-workflow)
-- [How to compile MuseScore Studio?](https://github.com/musescore/MuseScore/wiki/Set-up-developer-environment)
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [乐谱下载与离线使用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E4%B9%90%E8%B0%B1%E4%B8%8B%E8%BD%BD%E4%B8%8E%E7%A6%BB%E7%BA%BF%E4%BD%BF%E7%94%A8.md)
+- [乐谱播放与练习功能](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE%E4%B8%8E%E7%BB%83%E4%B9%A0%E5%8A%9F%E8%83%BD.md)
+- [免费账号与PRO功能区别](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7%E4%B8%8EPRO%E5%8A%9F%E8%83%BD%E5%8C%BA%E5%88%AB.md)
+- [常见问题解答](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94.md)
+- [打开本地mscz乐谱文件](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0mscz%E4%B9%90%E8%B0%B1%E6%96%87%E4%BB%B6.md)
+- [登录订阅与账号注销](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/MuseScore/%E7%99%BB%E5%BD%95%E8%AE%A2%E9%98%85%E4%B8%8E%E8%B4%A6%E5%8F%B7%E6%B3%A8%E9%94%80.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-## License
+---
 
-MuseScore Studio is licensed under GPL version 3.0. See [license file](https://github.com/musescore/MuseScore/blob/master/LICENSE.txt) in the same directory.
-
-## Packages
-
-See [Code Structure on Wiki](https://github.com/musescore/MuseScore/wiki/CodeStructure)
-
-## Building
-
-**Read the [Compilation section](https://github.com/musescore/MuseScore/wiki/Set-up-developer-environment) of the [MuseScore Wiki](https://github.com/musescore/MuseScore/wiki) for a complete build walkthrough and a list of dependencies.**
-
-### Getting sources
-
-If using git to download repo of entire code history, type:
-
-    git clone  --recurse-submodules https://github.com/musescore/MuseScore.git
-    cd MuseScore
-
-(The `--recurse-submodules` ensures that the [`muse_framework`](https://github.com/musescore/muse_framework) git submodule is checked out into the `muse/` subdirectory.)
-
-Otherwise, you can just download the latest source release tarball from the [Releases page](https://github.com/musescore/MuseScore/releases), and then from your download directory type:
-
-    tar xzf MuseScore-x.x.x.tar.gz
-    cd MuseScore-x.x.x
-
-### Release Build
-
-To compile MuseScore Studio for release, type:
-
-    cmake -P build.cmake -DCMAKE_BUILD_TYPE=Release
-
-On MacOS, append `-G Ninja` in order to use the `ninja` build tool (which you may need to install), since this
-is required to compile Swift components.
-
-If something goes wrong, append the word "clean" to the above command to delete the build subdirectory:
-
-    cmake -P build.cmake -DCMAKE_BUILD_TYPE=Release clean
-
-Then try running the first command again.
-
-### Running
-
-To start MuseScore Studio, type:
-
-    cmake -P build.cmake -DCMAKE_BUILD_TYPE=Release run
-
-Or run the compiled executable directly.
-
-### Debug Build
-
-A debug version can be built and run by replacing `-DCMAKE_BUILD_TYPE=Release`
-with `-DCMAKE_BUILD_TYPE=Debug` in the above commands.
-
-If you omit the `-DCMAKE_BUILD_TYPE` option entirely then `RelWithDebInfo` is
-used by default, as it provides a useful compromise between Release and Debug.
-
-### Testing
-
-See the [Unit tests section](https://github.com/musescore/MuseScore/wiki/Unit-tests) of the [MuseScore Studio Wiki](https://github.com/musescore/MuseScore/wiki) for instructions on how to run the test suite.
-
-### Code Formatting
-
-Run `./hooks/install.sh` to install a pre-commit hook that will format your staged files. Requires that you install `uncrustify`.
-
-If you have problems, please report them. To uninstall, run `./hooks/uninstall.sh`.
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/musescore/MuseScore)。
